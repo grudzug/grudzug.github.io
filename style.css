@@ -1,0 +1,143 @@
+main {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: 70px auto;
+}
+
+nav {
+  background: #001f3f;
+  height: 70px;
+  width: 70%;
+  padding-left: 90px;
+  position: fixed;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  z-index:2;
+}
+
+.flex_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.picture_name {
+  background-image: url('https://raw.githubusercontent.com/green-fox-academy/myfirstapp-syllabus/master/assets/first-website-header.png');
+  background-size: 410%;
+  background-position: center;
+  max-width: 330px;
+  
+}
+
+.introduction {
+  font-family: 'Blinker', sans-serif;
+  font-size: 18px;
+  line-height: 150%;
+  color: #000;
+}
+
+blockquote {
+  font-family: 'Anton', sans-serif;
+  color: #fff;
+  font-size: 3.5em;
+  background: #001f3f;
+  padding: 0.5em;
+  text-align: left;
+  position: relative;
+  margin: 2rem 0;
+  width:5em;
+}
+
+blockquote::before {
+  content: '“';
+  font-family: 'Anton', sans-serif;
+  color: #fff;
+  font-size: 9vw;
+  line-height: 80%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+section {
+  width: 70%;
+}
+
+.title_container {
+  display:flex;
+  flex-direction:column;
+}
+
+.hi_my_name {
+  font-family: 'Anton', sans-serif;
+  font-size: 2rem;
+  line-height: 50%;
+  margin: 230px 0 20px 50px;
+  color: #001f3f;
+}
+
+.anakin {
+  font-family: 'Anton', sans-serif;
+  color: #001f3f;
+  font-size: 5rem;
+  margin: 0 0 20px 50px;
+  line-height: 80%;
+}
+
+p, ul {
+  font-family: 'Blinker', sans-serif;
+  font-size: 1rem;
+  color: #000;
+  margin: ;
+  line-height: 160%;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 2.5rem;
+  margin: ;
+  color: #001f3f;
+}
+
+h2 {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 2rem;
+  line-height: 150%;
+  margin: ;
+  color: #001f3f;
+}
+
+h3 {
+  margin: ;
+  font-family: 'Merriweather', serif;
+  font-size: 1rem;
+  color: #001f3f;
+}
+
+.text_container {
+ margin: 2rem;
+}
+
+a {
+  padding: 0 2rem;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 35px;
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  background: #fff;
+  color: #000;
+  border: 1px solid #fff;
+  border-radius: 3px;
+}
